@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-[#0d1212];
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'archivo-black';
+    src: url('/fonts/Archivo_Black/ArchivoBlack-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'space-mono';
+    src: url('/fonts/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'space-grotesk-light';
+    src: url('/fonts/Space_Grotesk/SpaceGrotesk-Light.ttf') format('truetype');
+    font-weight: normal bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'space-grotesk-medium';
+    src: url('/fonts/Space_Grotesk/SpaceGrotesk-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'space-grotesk';
+    src: url('/fonts/Space_Grotesk/SpaceGrotesk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size:xx-large;
+}
+
+@font-face {
+    font-family: 'space-grotesk-semi';
+    src: url('/fonts/Space_Grotesk/SpaceGrotesk-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'space-grotesk-bold';
+    src: url('/fonts/Space_Grotesk/SpaceGrotesk-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
